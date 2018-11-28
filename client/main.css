@@ -2,3 +2,23 @@ body {
   padding: 10px;
   font-family: sans-serif;
 }
+
+.counterbutton {
+	width: 500px;
+	height: 100px;
+	font-size: 30px;
+	color: green;
+	background-color: lightgreen;
+}
+
+.toggleon {
+	font-size: 30px;
+	color: blue;
+	background-color: lightblue;
+}
+
+.toggleoff {
+	font-size: 24px;
+	color: grey;
+	background-color: white;
+}
