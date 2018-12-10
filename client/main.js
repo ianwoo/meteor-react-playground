@@ -6,12 +6,15 @@ import Calc from '../imports/ui/calc.js';
 import Clock from '../imports/ui/clock.js';
 import Toggle from '../imports/ui/toggle.js';
 import Counterbutton from '../imports/ui/counterbutton.js';
+import Tictactoe from '../imports/ui/tictactoe.js';
 
 Meteor.startup(() => {
-  ReactDOM.render(<App dumbass={'kanye'} fucker={'trump'}/>, document.getElementById('app'));
-  ReactDOM.render(<App dumbass={'hillary'} fucker={'duterte'}/>, document.getElementById('app2'));
-  ReactDOM.render(<Calc input1={2} input2={2}/>, document.getElementById('calc'));
-  ReactDOM.render(<Clock name={'world'}/>, document.getElementById('clock'));
-  ReactDOM.render(<Toggle/>, document.getElementById('toggle'));
-  ReactDOM.render(<Counterbutton increment={1}/>, document.getElementById('counterbutton'));
+  // ReactDOM.render(<App dumbass={'kanye'} fucker={'trump'}/>, document.getElementById('app'));
+  // ReactDOM.render(<App dumbass={'hillary'} fucker={'duterte'}/>, document.getElementById('app2'));
+  // ReactDOM.render(<Calc input1={2} input2={2}/>, document.getElementById('calc'));
+  // ReactDOM.render(<Clock name={'world'}/>, document.getElementById('clock'));
+  // ReactDOM.render(<Toggle/>, document.getElementById('toggle'));
+  // ReactDOM.render(<Counterbutton increment={1}/>, document.getElementById('counterbutton'));
+
+  ReactDOM.render(<Tictactoe/>, document.getElementById('tictactoeBoard'));
 });

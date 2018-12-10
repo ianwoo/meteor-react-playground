@@ -22,3 +22,14 @@ body {
 	color: grey;
 	background-color: white;
 }
+
+.row {
+	display: flex;
+}
+
+.box {
+	border: 1px solid black;
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+}
